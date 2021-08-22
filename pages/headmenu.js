@@ -1,25 +1,15 @@
-import React, { useState } from "react";
+
 import Link from "next/link";
 export default function Headmenu() {
-  const [active, setActive] = useState(false);
 
-  const handleClick = () => {
-    setActive(!active);
-  };
   return (
     <>
-      <nav className="flex justify-between items-center flex-wrap bg-gradient-to-r from-green-400 to-blue-500 p-3 ">
+      <div className="flex justify-between items-center flex-wrap bg-gradient-to-r from-green-400 to-blue-500 p-3 ">
         <Link href="/">
           <a href="#" className="flex items-center py-0 px-1">
-            <img src="img/logo.png" alt="Logo" className="" />
+            <img src="img/logo.png" width={182} height={57} alt="pg slot" />
           </a>
         </Link>
-
-        {/* <button className=" inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none" onClick={handleClick}>
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button> */}
         
         <a href="/">
           <div className="mb-1 ml-1">
@@ -38,24 +28,7 @@ export default function Headmenu() {
             </button>
           </div>
         </a>
-
-        {/* <div className={`${active ? "" : "hidden"}   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
-          <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
-            <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white ">หน้าหลัก</a>
-            </Link>
-            <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white">ดาวน์โหลด</a>
-            </Link>
-            <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white">ติดต่อเรา</a>
-            </Link>
-            <a href="/" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white">
-              สมัครสมาชิก
-            </a>
-          </div>
-        </div> */}
-      </nav>
+      </div>
     </>
   );
 }
