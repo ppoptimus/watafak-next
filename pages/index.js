@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Card from "./card";
-import Desk from "./desk";
 import Footmobile from "./footmobile";
 import HeadMenu from "./headmenu";
 
@@ -22,7 +21,6 @@ export default function Home() {
       <HeadMenu />
       <div className=" items-center justify-center min-h-screen py-1">
         <Card />
-        <Desk />
       </div>
       <Footmobile />
       <footer className="flex items-center justify-center w-full bottom-2">
