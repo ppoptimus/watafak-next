@@ -6,7 +6,7 @@ module.exports = {
     autoprefixer: {},
   },
   i18n: {
-    locales: ["th"],
-    defaultLocale: "th",
+    locales: ["en"],
+    defaultLocale: "en",
   },
 };

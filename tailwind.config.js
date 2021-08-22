@@ -10,7 +10,7 @@ module.exports = {
   },
   plugins: [],
   i18n: {
-    locales: ["th"],
-    defaultLocale: "th",
+    locales: ["en"],
+    defaultLocale: "en",
   },
 };
