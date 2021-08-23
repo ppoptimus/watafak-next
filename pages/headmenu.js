@@ -8,13 +8,12 @@ export default function Headmenu() {
     <>
       <div className="flex justify-between items-center flex-wrap bg-gradient-to-r from-green-400 to-blue-500 p-3 ">
         <Link href="/">
-          <a href="#" className="flex items-center py-0 px-1">
-            {/* <img src="img/logo.png" width={182} height={57} alt="pg slot" /> */}
+          <a className="flex items-center py-0 px-1">
             <Image src={pgslot} width={182} height={57} alt="pg slot" />
           </a>
         </Link>
 
-        <a href="/">
+        <a href="https://watafak88.com/#/playgame" target="_blank" rel="noopener noreferrer">
           <div className="mb-1 ml-1">
             <button
               type="button"

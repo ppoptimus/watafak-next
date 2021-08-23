@@ -13,10 +13,10 @@ export default function Home() {
         <title>Play Slot Online</title>
         <meta
           name="description"
-          content="PG SLOT Online เปิดตลอด 24 ชั่วโมง, ระบบเติมเงินแบบเรียลไทม์, Auto deposit ระบบฝากถอนอัตโนมัติ, user เดียวเล่นได้ทุกเกม, สล็อตออนไลน์บนมือถือ, ได้เงินจริงมีฟรีเครดิต, แตกทีเป็นแสน"
+          content="PG SLOT Online เปิดตลอด 24 ชั่วโมง, ระบบเติมเงินแบบเรียลไทม์, Auto deposit ระบบฝากถอนอัตโนมัติ, เล่นสล็อตเว็บไหนดี, สล็อตออนไลน์บนมือถือ, ได้เงินจริงมีฟรีเครดิต"
         />
 
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon.png" />
       </Head>
       <HeadMenu />
       <div className=" items-center justify-center min-h-screen py-1">
@@ -26,7 +26,7 @@ export default function Home() {
       <footer className="flex items-center justify-center w-full bottom-2">
         <a
           className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="/"
           target="_blank"
           rel="noopener noreferrer"
         >
