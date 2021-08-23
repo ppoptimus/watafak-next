@@ -2,7 +2,7 @@ import React from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/swiper.min.css"
 import "swiper/components/effect-cube/effect-cube.min.css"
-import SwiperCore, { EffectCube, Pagination } from "swiper/core"
+import SwiperCore, { EffectCube, Autoplay } from "swiper/core"
 import Image from "next/image"
 import pgslot1 from "../public/img/pgslot1.jpg"
 import pgslot2 from "../public/img/pgslot2.jpg"
@@ -14,7 +14,7 @@ import pgslot7 from "../public/img/pgslot7.jpg"
 import pgslot8 from "../public/img/pgslot8.jpg"
 import pgslot9 from "../public/img/pgslot9.jpg"
 import pgslot10 from "../public/img/pgslot10.jpg"
-SwiperCore.use([EffectCube, Pagination])
+SwiperCore.use([Autoplay, EffectCube])
 export default function Cube() {
 	return (
 		<>
@@ -27,8 +27,10 @@ export default function Cube() {
 					shadowOffset: 20,
 					shadowScale: 0.94,
 				}}
-				pagination={true}
-                // style={{width:"281px", height:"376px", zIndex:"999"}}
+                autoplay={{
+                    "delay": 50,
+                    "disableOnInteraction": false
+                  }}
 				className='mySwiper w-3/4 h-auto'>
 				<SwiperSlide>
 					<Image src={pgslot1} className="w-full h-auto" alt='' />
