@@ -28,36 +28,37 @@ export default function Cube() {
 					shadowScale: 0.94,
 				}}
 				pagination={true}
-				className='mySwiper w-80 h-96'>
+                // style={{width:"281px", height:"376px", zIndex:"999"}}
+				className='mySwiper w-3/4 h-auto'>
 				<SwiperSlide>
-					<Image src={pgslot1} width={300} height={320} alt='' />
+					<Image src={pgslot1} className="w-full h-auto" alt='' />
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src={pgslot2} width={300} height={320} alt='' />
+					<Image src={pgslot2} className="w-full h-auto" alt='' />
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src={pgslot3} width={300} height={320} alt='' />
+					<Image src={pgslot3} className="w-full h-auto" alt='' />
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src={pgslot4} width={300} height={320} alt='' />
+					<Image src={pgslot4} className="w-full h-auto" alt='' />
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src={pgslot5} width={300} height={320} alt='' />
+					<Image src={pgslot5} className="w-full h-auto" alt='' />
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src={pgslot6} width={300} height={320} alt='' />
+					<Image src={pgslot6} className="w-full h-auto" alt='' />
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src={pgslot7} width={300} height={320} alt='' />
+					<Image src={pgslot7} className="w-full h-auto" alt='' />
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src={pgslot8} width={300} height={320} alt='' />
+					<Image src={pgslot8} className="w-full h-auto" alt='' />
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src={pgslot9} width={300} height={320} alt='' />
+					<Image src={pgslot9} className="w-full h-auto" alt='' />
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src={pgslot10} width={300} height={320} alt='' />
+					<Image src={pgslot10} className="w-full h-auto" alt='' />
 				</SwiperSlide>
 			</Swiper>
 		</>
