@@ -1,5 +1,4 @@
 import Head from "next/head";
-
 import Card from "./card";
 import Footmobile from "./footmobile";
 import HeadMenu from "./headmenu";
