@@ -3,7 +3,7 @@ import React from "react"
 export default function Footmobile() {
 	return (
 		<>
-			<div className='flex mx-5 grid place-content-center mb-0'>
+			<div className='mx-5 grid place-content-center mb-0 mt-16'>
 				<div className='bg-gradient-to-r from-blue-400 to-indigo-500 rounded-2xl text-white p-6 px-14 text-center h-52 max-w-sm mx-auto'>
 					<h1 className='text-3xl mb-3'>ติดต่อเรา</h1>
 					<p className='text-lg'>เปิดบริการตลอด 24 ชั่วโมง</p>

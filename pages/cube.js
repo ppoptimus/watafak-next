@@ -34,98 +34,99 @@ import pgslot26 from "../public/img/pgslot26.jpg"
 SwiperCore.use([Autoplay, EffectCube])
 export default function Cube() {
 	return (
-		<>
-			<Swiper
-				effect={"cube"}
-				grabCursor={true}
-				cubeEffect={{
-					shadow: true,
-					slideShadows: true,
-					shadowOffset: 20,
-					shadowScale: 0.94,
-				}}
-                autoplay={{
-                    "delay": 500,
-                    "disableOnInteraction": false
-                  }}
-				className='mySwiper w-3/4 h-auto'>
-				<SwiperSlide>
-					<Image src={pgslot1} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot2} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot3} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot4} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot5} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot6} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot7} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot8} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot9} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot10} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-                <SwiperSlide>
-					<Image src={pgslot11} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot12} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot13} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot14} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot15} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot16} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot17} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot18} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot19} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot20} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-                <SwiperSlide>
-					<Image src={pgslot21} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot22} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				
-				<SwiperSlide>
-					<Image src={pgslot24} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot25} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<Image src={pgslot26} className="w-full h-auto" alt='pg slot' />
-				</SwiperSlide>
-			</Swiper>
-		</>
-	)
+    <>
+      <Swiper
+        effect={"cube"}
+        grabCursor={true}
+        cubeEffect={{
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        }}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        className="mySwiper w-3/4 h-auto"
+      >
+        <SwiperSlide>
+          <Image src={pgslot1} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot2} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot3} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot4} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot5} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot6} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot7} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot8} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot9} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot10} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot11} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot12} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot13} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot14} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot15} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot16} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot17} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot18} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot19} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot20} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot21} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot22} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Image src={pgslot24} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot25} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={pgslot26} className="w-full h-auto rounded-3xl" alt="pg slot" />
+        </SwiperSlide>
+      </Swiper>
+    </>
+  );
 }
