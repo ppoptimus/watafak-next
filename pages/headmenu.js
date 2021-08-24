@@ -8,7 +8,7 @@ export default function Headmenu() {
     <>
       <div className="flex justify-between items-center flex-wrap bg-gradient-to-r from-green-400 to-blue-500 p-3 ">
         <Link href="/">
-          <a className="flex items-center py-0 px-1">
+          <a className="flex items-center py-0 px-0">
             <Image src={pgslot} width={182} height={57} alt="pg slot" />
           </a>
         </Link>
