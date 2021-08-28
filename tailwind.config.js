@@ -9,8 +9,5 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-  i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
-  },
+
 };

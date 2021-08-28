@@ -5,8 +5,5 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
-  i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
-  },
+  
 };
