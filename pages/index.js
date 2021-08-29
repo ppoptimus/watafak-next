@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Card from "./card";
 import Footmobile from "./footmobile";
-import HeadMenu from "./headmenu";
 import Navbar from './navbar';
+
 
 export default function Home() {
   return (
@@ -16,13 +16,11 @@ export default function Home() {
           name='description'
           content='PG SLOT Online เปิดตลอด 24 ชั่วโมง, ระบบเติมเงินแบบเรียลไทม์, Auto deposit ระบบฝากถอนอัตโนมัติ, เล่นสล็อตเว็บไหนดี, สล็อตออนไลน์บนมือถือ, ได้เงินจริงมีฟรีเครดิต'
         />
-
         <link rel='icon' href='/icon.png' />
       </Head>
 
-      {/* <HeadMenu /> */}
       <Navbar/>
-      <div className=' items-center justify-center overflow-hidden'>
+      <div className='items-center justify-center overflow-hidden'>
         <Card />
         <Footmobile />
       </div>
