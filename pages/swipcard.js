@@ -39,6 +39,12 @@ export default function Swipcard() {
       <style jsx>{``}</style>
       <Swiper effect={'cards'} grabCursor={true} loop={true} loopFillGroupWithBlank={true} className={css.swiper}>
         <SwiperSlide className={css.swiperslide}>
+          <Image src={pgslot20} className='w-full h-auto overflow-hidden' alt='pg slot' />
+          <span>
+            <button className='pt-2 pb-3 font-bold text-red-400'>Sushi Oishi</button>
+          </span>
+        </SwiperSlide>
+        <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot1} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
             <button className='pt-2 pb-3 font-bold text-red-400'>Rise of Apollo</button>
@@ -153,12 +159,7 @@ export default function Swipcard() {
             <button className='pt-2 pb-3 font-bold text-red-400'>Secrets of Cleopatra</button>
           </span>
         </SwiperSlide>
-        <SwiperSlide className={css.swiperslide}>
-          <Image src={pgslot20} className='w-full h-auto overflow-hidden' alt='pg slot' />
-          <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Sushi Oishi</button>
-          </span>
-        </SwiperSlide>
+
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot21} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
