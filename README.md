@@ -32,3 +32,9 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 git remote add origin https://github.com/ppoptimus/watafak-next.git
 git branch -M main
 git push -u origin main
+
+## contents
+1. game free
+2. promotion
+3. article
+4. contact

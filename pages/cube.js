@@ -26,7 +26,6 @@ import pgslot19 from "../public/img/pgslot19.jpg"
 import pgslot20 from "../public/img/pgslot20.jpg"
 import pgslot21 from "../public/img/pgslot21.jpg"
 import pgslot22 from "../public/img/pgslot22.jpg"
-
 import pgslot24 from "../public/img/pgslot24.jpg"
 import pgslot25 from "../public/img/pgslot25.jpg"
 import pgslot26 from "../public/img/pgslot26.jpg"

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Card from "./card";
+import Carousel from './carousel';
 import Footmobile from "./footmobile";
 import Navbar from './navbar';
 
@@ -21,6 +22,7 @@ export default function Home() {
 
       <Navbar/>
       <div className='items-center justify-center overflow-hidden'>
+        <Carousel/>
         <Card />
         <Footmobile />
       </div>
