@@ -1,9 +1,11 @@
-import Head from "next/head";
-import Card from "./card";
+import Head from 'next/head';
+import Card from './card';
 import Carousel from './carousel';
-import Footmobile from "./footmobile";
+import Swipcard from './swipcard';
+import Footmobile from './footmobile';
 import Navbar from './navbar';
-
+import 'swiper/css/bundle';
+import Slidecard from './slidecard';
 
 export default function Home() {
   return (
@@ -20,13 +22,20 @@ export default function Home() {
         <link rel='icon' href='/icon.png' />
       </Head>
 
-      <Navbar/>
-      <div className='items-center justify-center overflow-hidden'>
-        <Carousel/>
-        <Card />
+      <Navbar />
+      <div className='items-center justify-center'>
+        <div className='hidden md:hidden lg:block'>
+          <Carousel />
+          <Card />
+        </div>
+        <div className='lg:hidden'>
+          <Swipcard />
+          <Slidecard />
+        </div>
         <Footmobile />
       </div>
-      <footer className='flex items-center justify-center w-full bottom-2'>
+
+      <footer className='flex items-center justify-center w-full bottom-1'>
         <a className='flex items-center justify-center' href='/' target='_blank' rel='noopener noreferrer'>
           Powered by <img src='img/logo1.png' alt='pg slot' width={100} height={100} />
         </a>

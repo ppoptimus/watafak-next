@@ -13,7 +13,7 @@ export default function Card() {
             <div className='card bg-yellow-400 shadow-lg inline-block w-80 h-96 rounded-3xl absolute bottom-0 transform -rotate-6' />
             <div className='card bg-pink-500 shadow-lg inline-block w-80 h-96 rounded-3xl absolute bottom-0 transform rotate-6' />
             <div className='card bg-cyan transition shadow-xl w-80 h-96 rounded-3xl absolute bottom-0 z-10 grid place-items-center'>
-              <div className='card bg-white shadow-inner h-96 w-80 rounded-3xl overflow-hidden relative pt-7'>
+              <div className='card bg-white shadow-inner h-96 w-80 rounded-3xl relative pt-7'>
                 {/* <h1 className="shadow-md text-xl font-thin text-center text-gray-600">ทดลองเล่นฟรี</h1> */}
                 {/* <img
                   src="https://images.unsplash.com/photo-1611500730105-02d129cd71f0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MXwxfDB8MXxyYW5kb218fHx8fHx8fA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=500"

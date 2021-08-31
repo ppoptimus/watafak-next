@@ -1,8 +1,15 @@
 import React from "react"
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/swiper.min.css"
-import "swiper/components/effect-cube/effect-cube.min.css"
-import SwiperCore, { EffectCube, Autoplay } from "swiper/core"
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/effect-cube';
+import 'swiper/css/pagination';
+
+
+import SwiperCore, { EffectCube } from 'swiper';
+SwiperCore.use([EffectCube]);
+
 import Image from "next/image"
 import pgslot1 from "../public/img/pgslot1.jpg"
 import pgslot2 from "../public/img/pgslot2.jpg"
@@ -30,7 +37,7 @@ import pgslot24 from "../public/img/pgslot24.jpg"
 import pgslot25 from "../public/img/pgslot25.jpg"
 import pgslot26 from "../public/img/pgslot26.jpg"
 
-SwiperCore.use([Autoplay, EffectCube])
+SwiperCore.use([ EffectCube])
 export default function Cube() {
 	return (
 		<>

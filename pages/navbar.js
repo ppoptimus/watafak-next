@@ -50,7 +50,7 @@ export default function Navbar() {
             <a href='https://watafak88.com/#/playgame' target='_blank' rel='noopener noreferrer'>
               <button
                 type='button'
-                className='flex max-w-sm w-full bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-500 hover:from-indigo-600 hover:via-pink-600 hover:to-red-600 focus:outline-none text-white text-sm uppercase font-bold shadow-md rounded-full mx-auto p-2'
+                className='flex max-w-sm w-full bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 hover:from-indigo-600 hover:via-pink-600 hover:to-red-600 focus:outline-none text-white text-sm uppercase font-bold shadow-md rounded-full mx-auto p-2'
               >
                 <div className='flex items-center sm:flex-cols-12 gap-2'>
                   <div className='col-span-1'>

@@ -33,93 +33,101 @@ SwiperCore.use([Autoplay]);
 export default function Carousel() {
     return (
       <>
-        <Swiper
-          slidesPerView={4}
-          spaceBetween={10}
-          autoplay={{
-            delay: 2000,
-            disableOnInteraction: false,
-          }}
-          loop={true}
-          loopFillGroupWithBlank={true}
-          className='mySwiper container'
-        >
-          <SwiperSlide>
-            <Image src={pgslot1} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot2} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot3} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot4} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot5} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot6} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot7} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot8} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot9} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot10} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot11} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot12} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot13} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot14} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot15} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot16} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot17} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot18} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot19} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot20} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot21} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot22} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot24} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot25} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={pgslot26} className='w-full h-auto' alt='pg slot' />
-          </SwiperSlide>
-        </Swiper>
+        <div className='hidden md:hidden lg:block border-8 px-4 py-2'>
+          <div className='text-right text-white p-2'>
+            <button type='button' className='font-bold'>
+              เกมส์ฟรีทั้งหมด &gt;&gt;
+            </button>
+          </div>
+          <Swiper
+            slidesPerView={5}
+            spaceBetween={5}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            
+            loop={true}
+            loopFillGroupWithBlank={true}
+            className='mySwiper'
+          >
+            <SwiperSlide>
+              <Image src={pgslot1} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot2} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot3} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot4} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot5} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot6} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot7} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot8} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot9} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot10} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot11} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot12} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot13} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot14} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot15} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot16} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot17} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot18} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot19} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot20} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot21} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot22} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot24} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot25} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={pgslot26} className='w-full h-auto' alt='pg slot' />
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </>
     );
 }
