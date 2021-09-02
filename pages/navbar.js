@@ -76,7 +76,7 @@ export default function Navbar() {
               <a href='/' className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300'>
                 เล่นเกมส์
               </a>
-              <a href className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300'>
+              <a href='/' className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300'>
                 ดาวน์โหลด
               </a>
               <a href='/' className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300'>
