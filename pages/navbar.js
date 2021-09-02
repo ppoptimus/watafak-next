@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className='lg:hidden flex justify-between items-center'>
           {showModal ? (
             <div className='flex items-center p-3'>
-              <button className='outline-none' type='button' onClick={() => setShowModal(false)}>
+              <button className='outline-none' type='button' aria-label='menu' onClick={() => setShowModal(false)}>
                 <svg
                   className=' w-6 h-6 text-white hover:text-blue-500 '
                   x-show='!showMenu'
@@ -29,7 +29,7 @@ export default function Navbar() {
           ) : null}
           {!showModal ? (
             <div className='flex items-center p-3'>
-              <button className='outline-none' type='button' onClick={() => setShowModal(true)}>
+              <button className='outline-none' type='button' aria-label='menu' onClick={() => setShowModal(true)}>
                 <svg
                   className=' w-6 h-6 text-white hover:text-blue-500 '
                   x-show='!showMenu'
@@ -66,20 +66,20 @@ export default function Navbar() {
         </div>
         <div className='hidden md:hidden lg:block flex justify-between items-center'>
           <div className='flex space-x-1'>
-            <a href='#' className='flex items-center py-3 pl-2 pr-0'>
+            <a href='/' className='flex items-center py-3 pl-2 pr-0'>
               <Image src={pgslot} width={182} height={57} alt='pg slot' />
             </a>
             <div className='hidden md:flex items-center space-x-1 cursor-pointer'>
-              <a href className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300 '>
+              <a href='/' className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300 '>
                 สมัครใหม่
               </a>
-              <a href className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300'>
+              <a href='/' className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300'>
                 เล่นเกมส์
               </a>
               <a href className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300'>
                 ดาวน์โหลด
               </a>
-              <a href className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300'>
+              <a href='/' className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300'>
                 บทความ
               </a>
             </div>
@@ -88,7 +88,7 @@ export default function Navbar() {
       </div>
       {showModal ? (
         <div className='absolute bg-gradient-to-r from-yellow-400 to-transparent w-screen z-50 mobile-menu'>
-          <ul className='p-4 text-white hover:text-white text-lg'>
+          <ul className='p-4 text-white hover:text-white text-lg' onClick={() => setShowModal(false)}>
             <li className='mb-1'>
               <a href='/' target='_blank' rel='noopener noreferrer'>
                 <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>

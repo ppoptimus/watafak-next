@@ -36,8 +36,13 @@ SwiperCore.use([EffectCards]);
 export default function Swipcard() {
   return (
     <div className='text-center'>
-      <style jsx>{``}</style>
       <Swiper effect={'cards'} grabCursor={true} loop={true} loopFillGroupWithBlank={true} className={css.swiper}>
+        <SwiperSlide className={css.swiperslide}>
+          <Image src={pgslot15} className='w-full h-auto overflow-hidden' alt='pg slot' />
+          <span>
+            <button className='pt-2 pb-3 font-bold text-red-400'>Lucky Neko</button>
+          </span>
+        </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot20} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
@@ -129,12 +134,7 @@ export default function Swipcard() {
             <button className='pt-2 pb-3 font-bold text-red-400'>Bikini Paradise</button>
           </span>
         </SwiperSlide>
-        <SwiperSlide className={css.swiperslide}>
-          <Image src={pgslot15} className='w-full h-auto overflow-hidden' alt='pg slot' />
-          <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Lucky Neko</button>
-          </span>
-        </SwiperSlide>
+
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot16} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
