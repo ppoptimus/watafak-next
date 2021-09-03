@@ -1,62 +1,70 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react';
+import React from "react"
+import { Swiper, SwiperSlide } from "swiper/react"
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
-import css from './styles/slide.module.css'
+import "swiper/css"
+import "swiper/css/effect-coverflow"
+import "swiper/css/pagination"
+import css from "./styles/slide.module.css"
 
-import SwiperCore, { EffectCoverflow, Autoplay } from 'swiper';
+import Image from "next/image"
+import promotion11 from "../public/img/pgslot_11-500.jpg"
+import promotion1 from "../public/img/pgslot_1-500.jpg"
+import promotion2 from "../public/img/pgslot_2-500.jpg"
+import promotion3 from "../public/img/pgslot_3-500.jpg"
+import promotion4 from "../public/img/pgslot_4-500.jpg"
+import promotion5 from "../public/img/pgslot_5-500.jpg"
+import promotion6 from "../public/img/pgslot_6-500.jpg"
+
+import SwiperCore, { EffectCoverflow, Autoplay } from "swiper"
 
 // install Swiper modules
-SwiperCore.use([EffectCoverflow, Autoplay]);
+SwiperCore.use([EffectCoverflow, Autoplay])
 
 export default function Slidecard() {
-    return (
-      <div>
-        <Swiper
-          effect={'coverflow'}
-          grabCursor={true}
-          centeredSlides={true}
-          slidesPerView={'auto'}
-          spaceBetween={1}
-          coverflowEffect={{
-            rotate: 60,
-            stretch: 0,
-            depth: 50,
-            modifier: 1,
-            slideShadows: true,
-          }}
-          autoplay={{
-            delay: 2000,
-            disableOnInteraction: false,
-          }}
-          loop={true}
-          className={css.swiper}
-        >
-          <SwiperSlide className={css.swiperslide}>
-            <img src='https://watafak88.com/img/promotion/pgslot_11-1080.jpg' className="lazyload img-fuild" width={500} height={500} alt='โปรโมชั่น pgslot' defer />
-          </SwiperSlide>
-          <SwiperSlide className={css.swiperslide}>
-            <img src='https://watafak88.com/img/promotion/pgslot_1-1080.jpg' className="lazyload img-fuild" width={500} height={500} alt='โปรโมชั่น pgslot' defer />
-          </SwiperSlide>
-          <SwiperSlide className={css.swiperslide}>
-            <img src='https://watafak88.com/img/promotion/pgslot_3-1080.jpg' className="lazyload img-fuild" width={500} height={500} alt='โปรโมชั่น pgslot' defer />
-          </SwiperSlide>
-          <SwiperSlide className={css.swiperslide}>
-            <img src='https://watafak88.com/img/promotion/pgslot_2-1080.jpg' className="lazyload img-fuild" width={500} height={500} alt='โปรโมชั่น pgslot' defer />
-          </SwiperSlide>
-          <SwiperSlide className={css.swiperslide}>
-            <img src='https://watafak88.com/img/promotion/pgslot_4-1080.jpg' className="lazyload img-fuild" width={500} height={500} alt='โปรโมชั่น pgslot' defer />
-          </SwiperSlide>
-          <SwiperSlide className={css.swiperslide}>
-            <img src='https://watafak88.com/img/promotion/pgslot_5-1080.jpg' className="lazyload img-fuild" className="lazyload img-fuild" width={500} height={500} alt='โปรโมชั่น pgslot' defer />
-          </SwiperSlide>
-          <SwiperSlide className={css.swiperslide}>
-            <img src='https://watafak88.com/img/promotion/pgslot_6-1080.jpg' className="lazyload img-fuild" width={500} height={500} alt='โปรโมชั่น pgslot' defer />
-          </SwiperSlide>
-        </Swiper>
-      </div>
-    );
+	return (
+		<div>
+			<Swiper
+				effect={"coverflow"}
+				grabCursor={true}
+				centeredSlides={true}
+				slidesPerView={"auto"}
+				spaceBetween={1}
+				coverflowEffect={{
+					rotate: 60,
+					stretch: 0,
+					depth: 50,
+					modifier: 1,
+					slideShadows: true,
+				}}
+				autoplay={{
+					delay: 2000,
+					disableOnInteraction: false,
+				}}
+				loop={true}
+				className={css.swiper}>
+				<SwiperSlide className={css.swiperslide}>
+					<Image src={promotion11} width={500} height={500} alt='pg slot promotion' />
+				</SwiperSlide>
+				<SwiperSlide className={css.swiperslide}>
+					<Image src={promotion1} width={500} height={500} className='lazyload img-fuild' alt='pg slot promotion' />
+				</SwiperSlide>
+				<SwiperSlide className={css.swiperslide}>
+					<Image src={promotion1} width={500} height={500} className='lazyload img-fuild' alt='pg slot promotion' />
+				</SwiperSlide>
+				<SwiperSlide className={css.swiperslide}>
+					<Image src={promotion2} width={500} height={500} className='lazyload img-fuild' alt='pg slot promotion' />
+				</SwiperSlide>
+				<SwiperSlide className={css.swiperslide}>
+					<Image src={promotion3} width={500} height={500} className='lazyload img-fuild' alt='pg slot promotion' />
+				</SwiperSlide>
+				<SwiperSlide className={css.swiperslide}>
+					<Image src={promotion4} width={500} height={500} className='lazyload img-fuild' alt='pg slot promotion' />
+				</SwiperSlide>
+				<SwiperSlide className={css.swiperslide}>
+					<Image src={promotion5} width={500} height={500} className='lazyload img-fuild' alt='pg slot promotion' />
+				</SwiperSlide>
+			</Swiper>
+		</div>
+	)
 }

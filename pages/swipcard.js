@@ -30,6 +30,7 @@ import pgslot22 from '../public/img/pgslot22.jpg';
 import pgslot24 from '../public/img/pgslot24.jpg';
 import pgslot25 from '../public/img/pgslot25.jpg';
 import pgslot26 from '../public/img/pgslot26.jpg';
+import slotfree from '../public/img/slotfree.png';
 
 import SwiperCore, { EffectCards } from 'swiper';
 SwiperCore.use([EffectCards]);
@@ -37,157 +38,166 @@ export default function Swipcard() {
   return (
     <div className='text-center'>
       <Swiper effect={'cards'} grabCursor={true} loop={true} loopFillGroupWithBlank={true} className={css.swiper}>
+      <SwiperSlide className={css.swiperslide}>
+          <div className={css.firstslide}>
+            <h1 className='text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>ทดลองเล่นเกมส์ฟรี</h1>
+            <Image src={slotfree} className='animate-bounce z-999 mt-28' alt='pg slot' />
+          </div>
+          <span>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Swipe เพื่อเลือกเกมส์</p>
+          </span>
+        </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot15} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Lucky Neko</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Lucky Neko</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot20} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Sushi Oishi</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Sushi Oishi</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot1} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Rise of Apollo</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Rise of Apollo</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot2} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Bali Vacation</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Bali Vacation</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot3} className='w-full h-auto overflow-hidden' alt='pg slot' />
 
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Wild Bandito</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Wild Bandito</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot4} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Candy Bonanza</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Candy Bonanza</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot5} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Circus Delight</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Circus Delight</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot6} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Crypto Gold</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Crypto Gold</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot7} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Dreams of Macau</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Dreams of Macau</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot8} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Fortune Ox</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Fortune Ox</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot9} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Galactic Gems</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Galactic Gems</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot10} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Guardians of Ice & Fire</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Guardians of Ice & Fire</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot11} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Heist Stakes</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Heist Stakes</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot12} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Jack Frost's Winter</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Jack Frost's Winter</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot13} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Jewels of Prosperity</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Jewels of Prosperity</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot14} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Bikini Paradise</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Bikini Paradise</p>
           </span>
         </SwiperSlide>
 
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot16} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Treasures of Aztec</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Treasures of Aztec</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot17} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Opera Dynasty</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Opera Dynasty</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot18} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Queen of Bounty</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Queen of Bounty</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot19} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Secrets of Cleopatra</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Secrets of Cleopatra</p>
           </span>
         </SwiperSlide>
 
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot21} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Thai River Wonders</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Thai River Wonders</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot22} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Majestic Treasures</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Majestic Treasures</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot24} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Treasures of Aztec</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Treasures of Aztec</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot25} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Vampire's Charm</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Vampire's Charm</p>
           </span>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
           <Image src={pgslot26} className='w-full h-auto overflow-hidden' alt='pg slot' />
           <span>
-            <button className='pt-2 pb-3 font-bold text-red-400'>Ways of the Qilin</button>
+            <p className='pt-2 pb-3 font-bold text-red-400'>Ways of the Qilin</p>
           </span>
         </SwiperSlide>
       </Swiper>

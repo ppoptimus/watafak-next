@@ -54,7 +54,7 @@ export default function Navbar() {
               >
                 <div className='flex items-center sm:flex-cols-12 gap-2'>
                   <div className='col-span-1'>
-                    <svg xmlns='http://www.w3.org/2000/svg' className='h-8 w-10 animate-bounce' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
+                    <svg xmlns='http://www.w3.org/2000/svg' className='h-8 w-10' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
                       <path strokelinecap='round' strokelinejoin='round' strokewidth='{2}' d='M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z' />
                     </svg>
                   </div>
