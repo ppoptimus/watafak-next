@@ -9,7 +9,7 @@ import Slidecard from './slidecard';
 
 export default function Home() {
   return (
-    <div className='bg-gradient-to-r from-yellow-400 to-red-600'>
+    <div className='bg-gradient-to-r from-yellow-500 to-red-600'>
       <Head>
         <meta httpEquiv='content-language' content='th' />
         <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
@@ -19,7 +19,7 @@ export default function Home() {
           name='description'
           content='PG SLOT Online เปิดตลอด 24 ชั่วโมง, ระบบเติมเงินแบบเรียลไทม์, Auto deposit ระบบฝากถอนอัตโนมัติ, เล่นสล็อตเว็บไหนดี, สล็อตออนไลน์บนมือถือ, ได้เงินจริงมีฟรีเครดิต'
         />
-        <meta name='robots' content='allow' />
+        <meta name='robots' content='all' />
         <link rel='icon' href='/icon.png' />
       </Head>
 
