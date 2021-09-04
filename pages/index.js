@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Card from './card';
-// import Carousel from './carousel';
+import Carousel from './carousel';
 import Swipcard from './swipcard';
 import Footmobile from './footmobile';
 import Navbar from './navbar';
@@ -26,7 +26,6 @@ export default function Home() {
       <Navbar />
       <div className='items-center justify-center'>
         <div className='hidden md:hidden lg:block'>
-          {/* <Carousel /> */}
           <Card />
         </div>
         <div className='lg:hidden'>
@@ -34,6 +33,7 @@ export default function Home() {
           <Promotion />
         </div>
         <Footmobile />
+          <Carousel />
       </div>
 
       <footer className='flex items-center justify-center w-full bottom-1'>

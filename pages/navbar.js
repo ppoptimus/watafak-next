@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import pgslot from '../public/img/logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faComments } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
   const [showModal, setShowModal] = useState(false);
@@ -64,28 +66,47 @@ export default function Navbar() {
             </a>
           </div>
         </div>
-        <div className='hidden md:hidden lg:block flex justify-between items-center'>
-          <div className='flex space-x-1'>
-            <a href='/' className='flex items-center py-3 pl-2 pr-0'>
-              <Image src={pgslot} width={182} height={57} alt='pg slot' />
-            </a>
-            <div className='hidden md:flex items-center space-x-1 cursor-pointer'>
-              <a href='/' className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300 '>
-                สมัครใหม่
+
+        <div className='hidden md:hidden lg:block'>
+          <div className='hidden md:flex justify-between'>
+            <div className='flex items-center space-x-1'>
+              <a href='/' className='items-center py-3 pl-2 pr-0'>
+                <Image src={pgslot} width={182} height={57} alt='pg slot' />
               </a>
-              <a href='/' className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300'>
-                เล่นเกมส์
+              <a href='/' className='text-white font-semibold'>
+                <button type='button' className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-2 px-3 rounded-md shadow-md'>
+                  สมัครใหม่
+                </button>
               </a>
-              <a href='/' className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300'>
-                ดาวน์โหลด
+              <a href='/' className='text-white font-semibold'>
+                <button type='button' className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-2 px-3 rounded-md shadow-md'>
+                  เล่นเกมส์
+                </button>
               </a>
-              <a href='/' className='py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300'>
-                บทความ
+              <a href='/' className='text-white font-semibold'>
+                <button type='button' className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-2 px-3 rounded-md shadow-md'>
+                  ดาวน์โหลด
+                </button>
+              </a>
+              <a href='/' className='text-white font-semibold'>
+                <button type='button' className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-2 px-3 rounded-md shadow-md'>
+                  บทความ
+                </button>
               </a>
             </div>
+
+            <a href='/' target='_blank' rel='noopener'>
+              <button type='button' className='flex max-w-sm w-full bg-white rounded-xl p-4 m-3 mx-auto'>
+                <div className='col-span-1'>
+                  <FontAwesomeIcon icon={faComments} className='text-blue-500 h-8 w-10' />
+                </div>
+                <div className='col-span-2 py-1 px-2 text-gray-500'>แสดงความคิดเห็นที่นี่</div>
+              </button>
+            </a>
           </div>
         </div>
       </div>
+
       {showModal ? (
         <div className='absolute bg-gradient-to-r from-yellow-400 to-transparent w-screen z-50 mobile-menu'>
           <ul className='p-4 text-white hover:text-white text-lg' onClick={() => setShowModal(false)}>

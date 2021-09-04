@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay} from 'swiper/core';
+import SwiperCore, { Autoplay } from 'swiper/core';
 
 import Image from 'next/image';
 import pgslot1 from '../public/img/pgslot1.jpg';
@@ -31,103 +31,255 @@ import pgslot26 from '../public/img/pgslot26.jpg';
 
 SwiperCore.use([Autoplay]);
 export default function Carousel() {
-    return (
-      <>
-        <div className='hidden md:hidden lg:block border-8 px-4 py-2'>
-          <div className='text-right text-white p-2'>
+  return (
+    <>
+      <div className='hidden md:hidden lg:block border-8 px-4 py-2'>
+        <div className='text-right text-white p-2'>
+          <a href='https://www.pgslot-free.com/' target='_blank' rel='noopener'>
             <button type='button' className='font-bold'>
               เกมส์ฟรีทั้งหมด &gt;&gt;
             </button>
-          </div>
-          <Swiper
-            slidesPerView={5}
-            spaceBetween={5}
-            autoplay={{
-              delay: 2000,
-              disableOnInteraction: false,
-            }}
-            
-            loop={true}
-            loopFillGroupWithBlank={true}
-            className='mySwiper'
-          >
-            <SwiperSlide>
-              <Image src={pgslot1} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot2} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot3} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot4} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot5} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot6} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot7} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot8} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot9} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot10} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot11} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot12} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot13} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot14} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot15} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot16} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot17} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot18} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot19} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot20} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot21} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot22} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot24} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot25} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={pgslot26} className='w-full h-auto' alt='pg slot' />
-            </SwiperSlide>
-          </Swiper>
+          </a>
         </div>
-      </>
-    );
+        <Swiper
+          slidesPerView={5}
+          spaceBetween={5}
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+          }}
+          loop={true}
+          loopFillGroupWithBlank={true}
+        >
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/lucky-neko/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot15} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/sushi-oishi/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot20} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/rise-of-apollo/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot1} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/bali-vacation/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot2} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/wild-bandito/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot3} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/candy-burst/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot4} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/circus-delight/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot5} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/crypto-gold/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot6} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/dreams-of-macau/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot7} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/fortune-ox/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot8} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/galactic-gems/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot9} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/gdn-ice-fire/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot10} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/heist-stakes/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot11} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/jack-frosts/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot12} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/jewels-prosper/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot13} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/bikini-paradise/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot14} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/treasures-aztec/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot16} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/opera-dynasty/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot17} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/queen-bounty/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot18} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/sct-cleopatra/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot19} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/thai-river/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot21} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/majestic-ts/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot22} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/treasures-aztec/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot24} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/vampires-charm/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot25} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href='https://m.pg-demo.com/ways-of-qilin/index.html?__refer=m.pg-redirect.com&__sv=0&language=en-US,en;q=0.9&bet_type=2&operator_token=8735ze6y8kp7jpwmxvau7gvytu3adwj4&from=https://dev.pgslot.co/home'
+              target='_blank'
+              rel='noopener'
+            >
+              <Image src={pgslot26} className='w-min h-auto' alt='pg slot free' />
+            </a>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+    </>
+  );
 }

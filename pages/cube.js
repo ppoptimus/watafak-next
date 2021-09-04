@@ -51,7 +51,7 @@ export default function Cube() {
 					shadowScale: 0.94,
 				}}
                 autoplay={{
-                    "delay": 2000,
+                    "delay": 500,
                     "disableOnInteraction": false
                   }}
 				className='mySwiper w-3/4 h-auto'>
