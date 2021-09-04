@@ -24,6 +24,9 @@ SwiperCore.use([EffectCoverflow, Autoplay])
 export default function Slidecard() {
 	return (
 		<div>
+			<div className='flex justify-center mt-16'>
+				<h1 className='font-bold'>Promotion</h1>
+			</div>
 			<Swiper
 				effect={"coverflow"}
 				grabCursor={true}
@@ -63,6 +66,9 @@ export default function Slidecard() {
 				</SwiperSlide>
 				<SwiperSlide className={css.swiperslide}>
 					<Image src={promotion5} width={500} height={500} className='lazyload img-fuild' alt='pg slot promotion' />
+				</SwiperSlide>
+				<SwiperSlide className={css.swiperslide}>
+					<Image src={promotion6} width={500} height={500} className='lazyload img-fuild' alt='pg slot promotion' />
 				</SwiperSlide>
 			</Swiper>
 		</div>

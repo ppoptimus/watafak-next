@@ -5,7 +5,7 @@ import Swipcard from './swipcard';
 import Footmobile from './footmobile';
 import Navbar from './navbar';
 import 'swiper/css/bundle';
-import Slidecard from './slidecard';
+import Promotion from './promotion';
 
 export default function Home() {
   return (
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
         <div className='lg:hidden'>
           <Swipcard />
-          <Slidecard />
+          <Promotion />
         </div>
         <Footmobile />
       </div>
