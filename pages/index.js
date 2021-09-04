@@ -3,7 +3,7 @@ import Card from './card';
 import Carousel from './carousel';
 import Swipcard from './swipcard';
 import Footmobile from './footmobile';
-import Navbar from './navbar';
+// import Navbar from './navbar';
 import 'swiper/css/bundle';
 import Promotion from './promotion';
 
@@ -23,7 +23,7 @@ export default function Home() {
         <link rel='icon' href='/icon.png' />
       </Head>
 
-      <Navbar />
+      {/* <Navbar /> */}
       <div className='items-center justify-center'>
         <div className='hidden md:hidden lg:block'>
           <Carousel />
