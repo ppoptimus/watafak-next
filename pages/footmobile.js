@@ -10,7 +10,7 @@ export default function Footmobile() {
         </div>
         <div className='bg-white pt-8 pb-5 px-6 text-center rounded-md shadow-lg transform -translate-y-20 sm:-translate-y-24 max-w-xs mx-auto'>
           <a href='https://lin.ee/bDb5ic7' target='_blank' rel='noopener noreferrer'>
-            <button className='animate-bounce rounded-md bg-gradient-to-r from-green-400 to-green-500 text-xl text-white pt-3 pb-4 px-8 inline'>Send a message</button>
+            <button className='rounded-md bg-gradient-to-r from-green-400 to-green-500 text-xl text-white pt-3 pb-4 px-8 inline'>Send a message</button>
           </a>
         </div>
       </div>

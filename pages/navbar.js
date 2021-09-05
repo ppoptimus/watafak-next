@@ -96,7 +96,7 @@ export default function Navbar() {
             </div>
 
             <a href='/' target='_blank' rel='noopener'>
-              <button type='button' className='flex max-w-sm w-full bg-white rounded-xl p-4 m-3 mx-auto'>
+              <button type='button' className='flex max-w-sm w-full bg-white rounded-xl p-4 my-2 mx-auto'>
                 <div className='col-span-1'>
                   <FontAwesomeIcon icon={faComments} className='text-blue-500 h-8 w-10' />
                 </div>

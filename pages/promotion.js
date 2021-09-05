@@ -25,7 +25,7 @@ export default function Slidecard() {
 	return (
 		<div>
 			<div className='flex justify-center mt-16'>
-				<h1 className='font-bold'>Promotion</h1>
+				<h1 className='font-bold text-2xl'>Promotion</h1>
 			</div>
 			<Swiper
 				effect={"coverflow"}
