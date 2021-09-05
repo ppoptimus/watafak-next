@@ -1,6 +1,6 @@
 .swiper {
 	margin-top: 1rem;
-	width: 20rem;
+	width: 18rem;
 	height: auto;
 	border-radius: 18px;
 	border-color: aliceblue;
@@ -11,15 +11,16 @@
 .swiperslide {
 	border-radius: 18px;
 	background: rgb(255, 255, 255);
+	display: block !important;
 }
 
 .firstslide {
-	width: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	justify-items: center;
 	margin: 2rem auto;
+	width: auto;
 	height: 18rem;
 }
 
