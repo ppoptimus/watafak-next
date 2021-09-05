@@ -6,8 +6,8 @@ module.exports = {
     extend: {
       keyframes: {
         bounce: {
-          '0%, 100%': { transform: 'translateX(-70%)' },
-          '50%': { transform: 'translateX(-10%)' },
+          '0%, 100%': { transform: 'translateX(20%)' },
+          '50%': { transform: 'translateX(-70%)' },
         },
         
       },

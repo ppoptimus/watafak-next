@@ -1,6 +1,6 @@
 .swiper {
 	margin-top: 1rem;
-	width: 18rem;
+	width: 17.5rem;
 	height: auto;
 	border-radius: 18px;
 	border-color: aliceblue;
@@ -20,7 +20,7 @@
 	justify-content: space-around;
 	justify-items: center;
 	margin: 2rem auto;
-	width: auto;
+	width: 17.5rem;;
 	height: 18rem;
 }
 
