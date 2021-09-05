@@ -47,9 +47,9 @@ export default function Swipcard() {
             <h1 className='text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-red-600'>Swipe This</h1>
             <Image src={slotfree} className='mt-28' alt='pg slot' />
           </div>
-          <div className='flex flex-row justify-around items-center text-white -mt-2 mb-2'>
+          <div className='flex flex-row justify-around items-center text-white -mt-2 mb-7'>
             เลือกเกมส์เลยสิ
-            <FontAwesomeIcon icon={faHandPaper} className='w-10 animate-bounce' />
+            <FontAwesomeIcon icon={faHandPaper} className='w-12 animate-bounce' />
           </div>
         </SwiperSlide>
         <SwiperSlide className={css.swiperslide}>
