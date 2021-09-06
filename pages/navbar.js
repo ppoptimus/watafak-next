@@ -73,24 +73,24 @@ export default function Navbar() {
               <a href='/' className='items-center py-3 pl-2 pr-0'>
                 <Image src={pgslot} width={182} height={57} alt='pg slot' />
               </a>
-              <a href='/' className='text-white font-semibold'>
+              <a href='https://watafak88.com/#/register' target='_blank' rel='noopener noreferrer' className='text-white font-semibold'>
                 <button type='button' className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-2 px-3 rounded-md shadow-md'>
                   สมัครใหม่
                 </button>
               </a>
-              <a href='/' className='text-white font-semibold'>
+              <a href='https://watafak88.com/#/playgame' target='_blank' rel='noopener noreferrer' className='text-white font-semibold'>
                 <button type='button' className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-2 px-3 rounded-md shadow-md'>
                   เล่นเกมส์
                 </button>
               </a>
-              <a href='/' className='text-white font-semibold'>
+              <a href='https://watafak88.com/#/download' target='_blank' rel='noopener noreferrer' className='text-white font-semibold'>
                 <button type='button' className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-2 px-3 rounded-md shadow-md'>
                   ดาวน์โหลด
                 </button>
               </a>
               <a href='/' className='text-white font-semibold'>
                 <button type='button' className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-2 px-3 rounded-md shadow-md'>
-                  บทความ
+                  บทความ {' (เร็วๆ นี้)'}
                 </button>
               </a>
             </div>
@@ -100,7 +100,7 @@ export default function Navbar() {
                 <div className='col-span-1'>
                   <FontAwesomeIcon icon={faComments} className='text-blue-500 h-8 w-10' />
                 </div>
-                <div className='col-span-2 py-1 px-2 text-gray-500'>แสดงความคิดเห็นที่นี่</div>
+                <div className='col-span-2 py-1 px-2 text-gray-500'>แสดงความคิดเห็นที่นี่  {' (เร็วๆ นี้)'}</div>
               </button>
             </a>
           </div>
@@ -111,14 +111,14 @@ export default function Navbar() {
         <div className='absolute bg-gradient-to-r from-yellow-400 to-transparent w-screen z-50 mobile-menu'>
           <ul className='p-4 text-white hover:text-white text-lg' onClick={() => setShowModal(false)}>
             <li className='mb-1'>
-              <a href='/' target='_blank' rel='noopener noreferrer'>
+              <a href='https://watafak88.com/#/register' target='_blank' rel='noopener noreferrer'>
                 <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>
                   สมัครใหม่
                 </button>
               </a>
             </li>
             <li className='mb-1'>
-              <a href='/' target='_blank' rel='noopener noreferrer'>
+              <a href='https://watafak88.com/#/download' target='_blank' rel='noopener noreferrer'>
                 <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>
                   ดาวน์โหลด
                 </button>
@@ -127,19 +127,19 @@ export default function Navbar() {
             <li className='mb-1'>
               <a href='/' target='_blank' rel='noopener noreferrer'>
                 <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>
-                  บทความ
+                  บทความ {' (เร็วๆ นี้)'}
                 </button>
               </a>
             </li>
             <li className='mb-1'>
-              <a href='/' target='_blank' rel='noopener noreferrer'>
+              <a href='https://watafak88.com/#/promotion' target='_blank' rel='noopener noreferrer'>
                 <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>
                   โปรโมชั่น
                 </button>
               </a>
             </li>
             <li className='mb-1'>
-              <a href='/' target='_blank' rel='noopener noreferrer'>
+              <a href='https://web.facebook.com/Watafak88' target='_blank' rel='noopener noreferrer'>
                 <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>
                   ติดต่อเรา
                 </button>
