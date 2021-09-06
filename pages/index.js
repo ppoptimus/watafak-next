@@ -20,6 +20,7 @@ export default function Home() {
           content='PG SLOT Online เปิดตลอด 24 ชั่วโมง, ระบบเติมเงินแบบเรียลไทม์, Auto deposit ระบบฝากถอนอัตโนมัติ, เล่นสล็อตเว็บไหนดี, สล็อตออนไลน์บนมือถือ, ได้เงินจริงมีฟรีเครดิต'
         />
         <meta name='robots' content='all' />
+        <meta name="google-site-verification" content="K_lIQfhgL9ZhcksFQOcdRXyMmFtcvx52gRAxEAUUlhA" />
         <link rel='icon' href='/icon.png' />
       </Head>
 
