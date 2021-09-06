@@ -125,13 +125,6 @@ export default function Navbar() {
               </a>
             </li>
             <li className='mb-1'>
-              <a href='/' target='_blank' rel='noopener noreferrer'>
-                <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>
-                  บทความ {' (เร็วๆ นี้)'}
-                </button>
-              </a>
-            </li>
-            <li className='mb-1'>
               <a href='https://watafak88.com/#/promotion' target='_blank' rel='noopener noreferrer'>
                 <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>
                   โปรโมชั่น
@@ -142,6 +135,13 @@ export default function Navbar() {
               <a href='https://web.facebook.com/Watafak88' target='_blank' rel='noopener noreferrer'>
                 <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>
                   ติดต่อเรา
+                </button>
+              </a>
+            </li>
+            <li className='mb-1'>
+              <a href='/' target='_blank' rel='noopener noreferrer'>
+                <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>
+                  เร็วๆ นี้
                 </button>
               </a>
             </li>
