@@ -88,7 +88,7 @@ export default function Navbar() {
                   ดาวน์โหลด
                 </button>
               </a>
-              <a href='/article' className='text-white font-semibold'>
+              <a href='/articlemain' className='text-white font-semibold'>
                 <button type='button' className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-2 px-3 rounded-md shadow-md'>
                   บทความ {' (เร็วๆ นี้)'}
                 </button>
@@ -139,7 +139,7 @@ export default function Navbar() {
               </a>
             </li>
             <li className='mb-1'>
-              <a href='/article' target='_blank' rel='noopener noreferrer'>
+              <a href='/articlemain'>
                 <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>
                   เร็วๆ นี้
                 </button>
