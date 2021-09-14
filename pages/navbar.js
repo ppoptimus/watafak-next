@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className='mx-auto px-1'>
+      <div className='mx-auto px-1 shadow-md'>
         <div className='lg:hidden flex justify-between items-center'>
           {showModal ? (
             <div className='flex items-center p-3'>

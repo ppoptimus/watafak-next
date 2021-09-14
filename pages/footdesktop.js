@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Footmobile() {
+export default function FootDesktop() {
   return (
     <>
       <div className='mx-5 grid place-content-center mb-0 mt-16'>
