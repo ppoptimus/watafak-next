@@ -3,7 +3,7 @@ import React from "react"
 export default function Art01() {
 	return (
 		<div>
-			<main className='h-full w-full bg-gray-50 flex items-center justify-center'>
+			<main className='h-full w-full flex justify-center'>
 				<div className='border max-w-screen-md bg-white mt-6 rounded-2xl p-4'>
 					<div className='flex items-center	justify-between'>
 						<div className='gap-3.5	flex items-center '>
