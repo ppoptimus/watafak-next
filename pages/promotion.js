@@ -53,9 +53,6 @@ export default function Slidecard() {
 					<Image src={promotion1} width={500} height={500} className='lazyload img-fuild' alt='pg slot promotion' />
 				</SwiperSlide>
 				<SwiperSlide className={css.swiperslide}>
-					<Image src={promotion1} width={500} height={500} className='lazyload img-fuild' alt='pg slot promotion' />
-				</SwiperSlide>
-				<SwiperSlide className={css.swiperslide}>
 					<Image src={promotion2} width={500} height={500} className='lazyload img-fuild' alt='pg slot promotion' />
 				</SwiperSlide>
 				<SwiperSlide className={css.swiperslide}>
