@@ -49,7 +49,7 @@ export default function Navbar() {
           ) : null}
 
           <div className='flex p-2'>
-            <a href='https://watafak88.com/#/playgame' target='_blank' rel='noopener noreferrer'>
+            <a href='https://www.hab0001.com?aff=A575137' target='_blank' rel='noopener noreferrer'>
               <button
                 type='button'
                 className='flex max-w-sm w-full bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 hover:from-indigo-600 hover:via-pink-600 hover:to-red-600 focus:outline-none text-white text-sm uppercase font-bold shadow-md rounded-full mx-auto p-2'
@@ -73,19 +73,19 @@ export default function Navbar() {
               <a href='/' className='items-center py-3 pl-2 pr-0'>
                 <Image src={pgslot} width={182} height={57} alt='pg slot' />
               </a>
-              <a href='https://watafak88.com/#/register' target='_blank' rel='noopener noreferrer' className='text-white font-semibold'>
+              <a href='https://www.hab0001.com?aff=A575137' target='_blank' rel='noopener noreferrer' className='text-white font-semibold'>
                 <button type='button' className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-2 px-3 rounded-md shadow-md'>
                   สมัครใหม่
                 </button>
               </a>
-              <a href='https://watafak88.com/#/playgame' target='_blank' rel='noopener noreferrer' className='text-white font-semibold'>
+              <a href='https://www.hab0001.com?aff=A575137' target='_blank' rel='noopener noreferrer' className='text-white font-semibold'>
                 <button type='button' className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-2 px-3 rounded-md shadow-md'>
                   เล่นเกมส์
                 </button>
               </a>
-              <a href='https://watafak88.com/#/download' target='_blank' rel='noopener noreferrer' className='text-white font-semibold'>
+              <a href='https://www.hiaff.org?aff=A575137' target='_blank' rel='noopener noreferrer' className='text-white font-semibold'>
                 <button type='button' className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-2 px-3 rounded-md shadow-md'>
-                  ดาวน์โหลด
+                  สมัครเป็นตัวแทน
                 </button>
               </a>
               <a href='/articlemain' className='text-white font-semibold'>
@@ -111,28 +111,28 @@ export default function Navbar() {
         <div className='absolute bg-gradient-to-r from-yellow-400 to-transparent w-screen z-50 mobile-menu'>
           <ul className='p-4 text-white hover:text-white text-lg' onClick={() => setShowModal(false)}>
             <li className='mb-1'>
-              <a href='https://watafak88.com/#/register' target='_blank' rel='noopener noreferrer'>
+              <a href='https://www.hab0001.com?aff=A575137' target='_blank' rel='noopener noreferrer'>
                 <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>
                   สมัครใหม่
                 </button>
               </a>
             </li>
             <li className='mb-1'>
-              <a href='https://watafak88.com/#/download' target='_blank' rel='noopener noreferrer'>
+              <a href='https://www.hiaff.org?aff=A575137' target='_blank' rel='noopener noreferrer'>
                 <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>
-                  ดาวน์โหลด
+                  สมัครตัวแทน
                 </button>
               </a>
             </li>
             <li className='mb-1'>
-              <a href='https://watafak88.com/#/promotion' target='_blank' rel='noopener noreferrer'>
+              <a href='https://www.hab0001.com?aff=A575137' target='_blank' rel='noopener noreferrer'>
                 <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>
                   โปรโมชั่น
                 </button>
               </a>
             </li>
             <li className='mb-1'>
-              <a href='https://web.facebook.com/Watafak88' target='_blank' rel='noopener noreferrer'>
+              <a href='https://line.me/R/ti/p/%40014ionvq' target='_blank' rel='noopener noreferrer'>
                 <button type='button' className='bg-red-500 hover:bg-red-600 focus:bg-red-800 rounded-r-lg py-2 px-3 w-32 text-left'>
                   ติดต่อเรา
                 </button>
