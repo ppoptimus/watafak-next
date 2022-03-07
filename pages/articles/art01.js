@@ -18,12 +18,7 @@ export default function Art01() {
 								</time>
 							</div>
 						</div>
-						{/* <div className='bg-gray-100	rounded-full h-3.5 flex	items-center justify-center'>
-							<svg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='34px' fill='#92929D'>
-								<path d='M0 0h24v24H0V0z' fill='none' />
-								<path d='M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z' />
-							</svg>
-						</div> */}
+						
 					</div>
 					<div className='whitespace-pre-wrap mt-7'>
                     <h1 className='text-1xl font-black antialiased'>บทความสล็อตออนไลน์</h1>
